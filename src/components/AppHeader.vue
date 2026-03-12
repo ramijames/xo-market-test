@@ -60,7 +60,8 @@ const navLinks = [
 <style scoped>
 .app-header {
   border-bottom: 1px solid #e5e7eb;
-  background: #fff;
+  background: #ffffffe2;
+  backdrop-filter: blur(10px);
   position: sticky;
   top: 0;
   z-index: 100;
