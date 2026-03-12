@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted, defineProps } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 interface Props {
   userTrade?: { direction: 'Up' | 'Down'; amount: number; timestamp: number } | null
